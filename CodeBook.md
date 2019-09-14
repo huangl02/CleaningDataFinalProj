@@ -5,9 +5,9 @@ This code book summarizes the resulting data fields in secondDataSet.txt
 
 Identifiers
 
- [1] "subject"  - The ID of the test subject (1:30)                
- [2] "activity" - The type of activity performed (1:6), see Activity Labels below
- 
+    [1] "subject"  - The ID of the test subject (1:30)                
+    [2] "activity" - The type of activity performed (1:6), see Activity Labels below
+
 Activity Labels
 
     WALKING (value 1): subject was walking during the test
