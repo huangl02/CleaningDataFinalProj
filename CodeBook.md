@@ -17,7 +17,7 @@ Activity Labels
     STANDING (value 5): subject was standing during the test
     LAYING (value 6): subject was laying down during the test
 
-Measurements: [] indicate column number             
+Measurements: [ ] indicate column number             
                   
      [3] "tBodyAcc-mean()-X"          
      [4] "tBodyAcc-mean()-Y"          
