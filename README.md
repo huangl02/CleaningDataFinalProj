@@ -8,6 +8,22 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+This is the course project for the Getting and Cleaning Data Coursera course. The R script, runAnalysis.R, does the following:
+
+    Download the zip data in the working directory 
+    Unzip the file
+    Load the activity_labels and feature
+    Load and merge (by columns) all the files in the training dataset (i.e. X_train, y_train, and subject_train)
+    Load and merge (by columns) all the files in the test dataset (i.e. X_test, y_test, and subject_test)
+    Merge (by rows) the training and test datasets
+    Rename all the column names (1st column called "subject", 2nd column called "activity", the pass feature.txt 
+    to the rest of the column names
+    Change all the values in activity column to the actual activity names listed in activity_labels.txt
+    Keep only those columns which contain a mean() or standard deviation std()
+    Creates a tidy dataset that contains the average (mean) value of each variable for each subject and each activity.
+
+The end result is shown in the file secondDataSet.txt.
+
 Experiemental Design:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
